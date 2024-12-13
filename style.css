@@ -1,0 +1,42 @@
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.5fr 0.3fr;
+    height: 100vh;
+    grid-template-areas: "nav nav nav nav" "sidebar main main main" "sidebar left right right" "foot foot foot foot";
+}
+
+.container > * {
+    padding-top: 10px;
+}
+
+nav{
+    grid-area: nav;
+    background: red;
+}
+
+footer{
+    grid-area: foot;
+    background: yellow;
+}
+
+main {
+    grid-area: main;
+    background: blue;
+}
+
+#l {
+    grid-area: left;
+    background: violet;
+}
+
+#r {
+    grid-area: right;
+    background: beige;
+}
+
+#s {
+    grid-area: sidebar;
+    background: brown;
+}
