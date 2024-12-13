@@ -1,0 +1,16 @@
+.flex_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  padding: 40px;
+}
+
+.flex_item {
+  background: black;
+  color: wheat;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  border-radius: 40px;
+}
